@@ -1,0 +1,4 @@
+CREATE USER [Zivko]
+	FOR LOGIN [Zivko]
+	WITH DEFAULT_SCHEMA = [Person]
+GO

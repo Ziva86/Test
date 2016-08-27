@@ -1,0 +1,3 @@
+CREATE SCHEMA [Zivko]
+	AUTHORIZATION [Zivko]
+GO
