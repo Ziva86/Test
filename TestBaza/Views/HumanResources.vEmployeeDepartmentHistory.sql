@@ -5,6 +5,7 @@ GO
 CREATE VIEW [HumanResources].[vEmployeeDepartmentHistory] 
 AS 
 
+
 SELECT 
     e.[BusinessEntityID] 
     ,p.[Title] 
