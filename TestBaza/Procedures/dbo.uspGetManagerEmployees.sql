@@ -4,7 +4,8 @@ GO
 
 CREATE PROCEDURE [dbo].[uspGetManagerEmployees]
     @BusinessEntityID [int],
-    @mare int
+    @mare int,
+    @mare2 int
 AS
 
 BEGIN
