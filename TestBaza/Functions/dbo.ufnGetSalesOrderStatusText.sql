@@ -5,7 +5,6 @@ GO
 CREATE FUNCTION [dbo].[ufnGetSalesOrderStatusText](@Status [tinyint])
 RETURNS [nvarchar](15) 
 AS 
-
 -- Returns the sales order status text representation for the status value.
 BEGIN
     DECLARE @ret [nvarchar](15);

@@ -3,5 +3,5 @@
   <ServerVersion>Sql2014</ServerVersion>
   <ServerName>ZIVKO\SQLEXPRESS2016</ServerName>
   <DatabaseName>AdventureWorks2014</DatabaseName>
-  <DatabaseInformation Version="8" />
+  <DatabaseInformation Version="9" />
 </DatabaseSettings>

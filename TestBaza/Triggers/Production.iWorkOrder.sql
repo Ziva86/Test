@@ -4,7 +4,6 @@ GO
 
 CREATE TRIGGER [Production].[iWorkOrder] ON [Production].[WorkOrder] 
 AFTER INSERT AS 
-
 BEGIN
     DECLARE @Count int;
 

@@ -4,7 +4,6 @@ GO
 
 CREATE VIEW [HumanResources].[vJobCandidate] 
 AS 
-
 SELECT 
     jc.[JobCandidateID] 
     ,jc.[BusinessEntityID] 

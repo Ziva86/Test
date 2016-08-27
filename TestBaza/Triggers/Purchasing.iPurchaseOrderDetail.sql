@@ -4,7 +4,6 @@ GO
 
 CREATE TRIGGER [Purchasing].[iPurchaseOrderDetail] ON [Purchasing].[PurchaseOrderDetail] 
 AFTER INSERT AS
-
 BEGIN
     DECLARE @Count int;
 

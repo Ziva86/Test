@@ -6,7 +6,7 @@ CREATE FUNCTION [dbo].[ufnGetAccountingEndDate]
 )
 RETURNS [DATETIME]
 AS
-      BEGIN
+     BEGIN
          RETURN DATEADD(millisecond, -2, CONVERT(DATETIME, '20040701', 112));
      END;
 GO

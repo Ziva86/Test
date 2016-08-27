@@ -8,7 +8,6 @@ CREATE FUNCTION [dbo].[ufnLeadingZeros](
 RETURNS varchar(8) 
 WITH SCHEMABINDING 
 AS 
-
 BEGIN
     DECLARE @ReturnValue varchar(8);
 

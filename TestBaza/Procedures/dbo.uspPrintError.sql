@@ -8,7 +8,6 @@ GO
 -- it will return without printing any error information.
 CREATE PROCEDURE [dbo].[uspPrintError] 
 AS
-
 BEGIN
     SET NOCOUNT ON;
 

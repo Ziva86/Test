@@ -4,7 +4,6 @@ GO
 
 CREATE VIEW [HumanResources].[vJobCandidateEducation] 
 AS 
-
 SELECT 
     jc.[JobCandidateID] 
     ,[Education].ref.value(N'declare default element namespace "http://schemas.microsoft.com/sqlserver/2004/07/adventure-works/Resume"; 
