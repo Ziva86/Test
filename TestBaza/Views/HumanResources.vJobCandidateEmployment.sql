@@ -4,7 +4,6 @@ GO
 
 CREATE VIEW [HumanResources].[vJobCandidateEmployment] 
 AS 
-
 SELECT 
     jc.[JobCandidateID] 
     ,CONVERT(datetime, REPLACE([Employment].ref.value(N'declare default element namespace "http://schemas.microsoft.com/sqlserver/2004/07/adventure-works/Resume"; 

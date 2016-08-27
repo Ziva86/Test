@@ -4,7 +4,6 @@ GO
 
 CREATE TRIGGER [Purchasing].[uPurchaseOrderHeader] ON [Purchasing].[PurchaseOrderHeader] 
 AFTER UPDATE AS 
-
 BEGIN
     DECLARE @Count int;
 
