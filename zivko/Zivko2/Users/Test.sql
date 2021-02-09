@@ -1,0 +1,4 @@
+CREATE USER [Test]
+	FOR LOGIN [Test]
+	WITH DEFAULT_SCHEMA = [dbo]
+GO
