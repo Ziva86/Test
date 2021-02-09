@@ -2,8 +2,8 @@ SET ANSI_NULLS ON
 SET QUOTED_IDENTIFIER ON
 GO
 
-CREATE TRIGGER employee_insupd
-ON employee
+CREATE TRIGGER dbo.employee_insupd
+ON dbo.employees
 FOR insert, UPDATE
 AS
 --Get the range of level for this job type from the jobs table.
@@ -15,7 +15,7 @@ select @min_lvl = min_lvl,
    @max_lvl = max_lvl,
    @emp_lvl = i.job_lvl,
    @job_id = i.job_id
-from employee e, jobs j, inserted i
+from employees e, jobs j, inserted i
 where e.emp_id = i.emp_id AND i.job_id = j.job_id
 IF (@job_id = 1) and (@emp_lvl <> 10)
 begin
